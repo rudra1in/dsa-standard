@@ -1,0 +1,20 @@
+# Core
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# LLM backends (choose one or both)
+ollama>=0.3.0           # local Ollama (default)
+google-genai>=0.3.0     # Gemini (set LLM_BACKEND=gemini)
+
+# RAG backends (optional — pick one)
+psycopg2-binary>=2.9    # pgvector / PostgreSQL
+chromadb>=0.5.0         # ChromaDB
+
+# Embeddings
+sentence-transformers>=3.0.0
+
+# Web UI
+streamlit>=1.35.0
+
+# Utilities
+python-dotenv>=1.0.0
